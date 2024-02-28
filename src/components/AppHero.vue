@@ -33,10 +33,7 @@
     padding: 20px 30px;
     margin: auto;
     font-size: 20px;
-}
-
-hr{
-    color: white;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 button{
@@ -51,5 +48,14 @@ button{
     border-radius: 0.3rem;
 }
 
+button:hover{
+    background-color: greenyellow;
+    transition: .3s ease-in-out;
+}
+
+button:not(:hover){
+    background-color: rgb(192, 201, 20);
+    transition: .3s ease-in-out;
+}
 
 </style>

@@ -31,7 +31,18 @@ h1{
     border-color: rgb(192, 201, 20);
     text-align: center;
     width: 600px;
+    cursor: wait;
+    user-select: none;
 }
 
+h1:hover{
+    color: greenyellow;
+    transition: .3s ease-in-out;
+}
+
+h1:not(:hover){
+    color: rgb(192, 201, 20);
+    transition: .3s ease-in-out;
+}
 
 </style>
