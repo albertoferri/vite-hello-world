@@ -24,11 +24,14 @@ template{
 
 h1{
     color: rgb(192, 201, 20);
-    margin-top: 100px;
+    margin: 100px auto;
     padding: 20px 30px;
     border: 3px solid red;
     border-radius: 20px;
     border-color: rgb(192, 201, 20);
+    text-align: center;
+    width: 600px;
 }
+
 
 </style>
